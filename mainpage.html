@@ -5,15 +5,16 @@
 <head>
  <title>Abstract Expressionism Website</title>
  <meta name="viewport" content="width=device-width,initial-scale=1" >
- 
+ <link href="style.css" rel="stylesheet">
 </head>
 
 <!--Visible content of the webpage--> 
 <body>
  <!--Header bar at the top of the page, contains link and other useful information that wouldn't fit in the bulk of the page--> 
  <header id="header">
+
   <!--links to other pages or sections in the header--> 
-  <nav id="headerlinks">
+  <nav class="navbar">
     <a href="mainpage.html">Home Page</a> |
     <a href="about.html">About</a> |
     <a href="#gallery">Gallery</a> |
@@ -25,91 +26,91 @@
  <main>
    <!--Main title section-->
    <section id="title">
+    <div id="titlecontainer">
      <h1>Abstract Expressionism</h1>
-     <h4>A Post-War Movement</h4>
+    </div>
+    <div id="subtitle">
+      <h4>A Post-War Movement</h4>
+    </div>
+    
    </section>
+  
+  <section id="topthirdcontent">
    <!--section explaining the history of the movement-->
-   <section id="history">
-     <article>
-       <h2>What is it? A Brief History</h2>
-       <p>Abstract expressionism is an American Art movement originating in New York City in the 1940s. It originated as an exploration of raw emotions and feelings. Artists in this movement were affected by the horror of World-War II and rejected painting human subjects in favor of an abstract style.
-       </p>
-     </article>
-   </section>
+   <div id="history">
+    <article>
+      <h2>What is it? A Brief History</h2>
+      <p>Abstract expressionism is an American Art movement originating in New York City in the 1940s. It originated as an exploration of raw emotions and feelings. Artists in this movement were affected by the horror of World-War II and rejected painting human subjects in favor of an abstract style.
+      </p>
+    </article>
+   </div>
+   <!--bulleted list of the top artists that were a part of it-->
+   <div id="artists">
+    <h2>Key Artists</h2>
+    <ul>
+      <li>Jackson Pollock</li>
+      <li>Lee Krasner</li>
+      <li>Barnett Newman</li>
+      <li>Mark Rothco</li>
+      <li>Willem de Kooning</li>
+    </ul>
+   </div>
+  </section>
+  <section id="lowerthirdcontent">
    <!--section listing on major influences of artists in the movement-->
    <section id="influences">
-      <article>
-        <h2>Influences</h2>
-        <p>Many artists in the movement were influenced by famous psychologists such as Carl Jung and his theory of the subconcious mind. 
-      Other major contributions include the art movements of Surrealism and Cubism.</p>
-      </article>
+    <article>
+     <h2>Influences</h2>
+     <p>Many artists in the movement were influenced by famous psychologists such as Carl Jung and his theory of the subconcious mind. 
+  Other major contributions include the art movements of Surrealism and Cubism.</p>
+    </article>
    </section>
    <!--section listing-->
    <section id="legacy">
     <article>
-      <h2>Legacy</h2>
-      <p>Abstract Expressionism died out in the 60's but remain highly influential. It affected movements such as Color Field painting, Lyrical Abstraction, Fluxus, Pop Art, Minimalism, Postminimalism, Neo-expressionism, and more. Movements were also made in direct responses to it include Hard-edge painting, and Pop Art.
-      </p>
-    </article>
-   </section>
-   <!--bulleted list of the top artists that were a part of it-->
-   <section id="artists">
-     <h2>Key Artists</h2>
-     <ul>
-       <li>Jackson Pollock</li>
-       <li>Lee Krasner</li>
-       <li>Barnett Newman</li>
-       <li>Mark Rothco</li>
-       <li>Willem de Kooning</li>
-     </ul>
-   </section>
+     <h2>Legacy</h2>
+     <p>Abstract Expressionism died out in the 60's but remain highly influential. It affected movements such as Color Field painting, Lyrical Abstraction, Fluxus, Pop Art, Minimalism, Postminimalism, Neo-expressionism, and more. Movements were also made in direct responses to it include Hard-edge painting, and Pop Art.
+     </p>
+   </article>
+</section>
+  </section>
+   
   <!--An image gallery of artworks-->
    <section id="gallery">
-     <h2>Gallery</h2>
-      <!--Deprecated 
-       <span>
-       <img src="galleryart/Pollock_red_composition.jpg" height="500" width="500" alt="Jackson Pollock, Red Composition (1946).">
-       </span>
-      -->
+     <h1 id="gallerytitle">Gallery</h2>
+      
      <ul id="imagegallery">
-       <li>
+       <li id="image">
          <span>
-         <img src="galleryart/Pollock_red_composition.jpg" height="500" width="500" alt="An image of Jackson Pollock's painting, titled Red Composition (1946).">
+         <img src="galleryart/Pollock_red_composition.jpg" alt="An image of Jackson Pollock's painting, titled Red Composition (1946).">
          </span>
          <h5>Jackson Pollock, Red Composition (1946).</h5>
        </li>
-       <li>
+       <li id="image">
          <span>
-          <img src="galleryart/Rothko_untitled.jpg" height="500" width="500" alt="An image of Mark Rothco's painting, titled Untitled (1968).">
+          <img src="galleryart/Rothko_untitled.jpg" alt="An image of Mark Rothco's painting, titled Untitled (1968).">
          </span>
          <h5>Mark Rothco, Untitled (1968).</h5>
        </li>
-       <li>
+       <li id="image">
         <span>
-          <img src="galleryart/Newman_OnementVI.jpg" height="500" width="500" alt="An image of Barnett Newman's painting, titled Onement VI (1953).">
+         <img src="galleryart/Newman_OnementVI.jpg" alt="An image of Barnett Newman's painting, titled Onement VI (1953).">
          </span>
          <h5>Barnett Newman, Onement VI (1953).</h5>
        </li>
-       <li>
+       <li id="image">
         <span>
-         <img src="galleryart/Krasner_ShatteredLight.jpg" height="500" width="500" alt="An image of Lee Krasner's painting, titled Shattered Light(1954).">
+         <img src="galleryart/Krasner_ShatteredLight.jpg" alt="An image of Lee Krasner's painting, titled Shattered Light(1954).">
         </span>
         <h5>Lee Krasner, Shattered Light (1954).</h5>
        </li>
-       <li>
+       <li id="image">
         <span>
-         <img src="galleryart/DeKooning_UntitledXXII.jpg" height="500" width="500" alt="An image of Willem de Kooning's painting, titled Untitled XXII(1982).">
+         <img src="galleryart/DeKooning_UntitledXXII.jpg" alt="An image of Willem de Kooning's painting, titled Untitled XXII(1982).">
         </span>
         <h5>Willem de Kooning, Untitled XXII (1982).</h5>
        </li>
-       <!--template for list items
-         <li>
-          <span>
-          <img src="" height="500" width="500" alt="An image of 's painting, titled (19).">
-          </span>
-          <h5>,  (19).</h5>
-         </li>
-       -->
+       
      </ul>
      
    </section>
@@ -119,7 +120,7 @@
      References
      </h3>
      <nav>
-       <ul>
+       <ul id="referencelist">
         <li>
          <a href="https://images.google.com/?hl=xx-elmer&gws_rd=ssl" target='_blank'>
           Google Images
@@ -156,13 +157,6 @@
           </a>
         </li>
         
-        <!--template for more links
-          <li>
-           <a href="" target='_blank'>
-            <i></i> by , 
-           </a>
-          </li>
-        -->
        </ul>
      </nav>
   </section> 
@@ -170,8 +164,8 @@
  
  <!--A footer bar of the page. Not sure what to put here for now. Will update the comment as elements are added-->
  <footer>
-   <nav id="footer">
-    | <a href="#header">Back to top</a> |
+   <nav class="navbar">
+    | <a href="#title">Back to top</a> |
    </nav>
  </footer>
     

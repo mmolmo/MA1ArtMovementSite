@@ -1,0 +1,166 @@
+/* Text elements */
+ h1 {
+   color: rgb(255, 77, 77);
+   font: 3.3em "Futura PT", sans-serif;
+   padding: 8px
+ }
+
+ h2 {
+   color: rgb(63, 61, 61);
+   font: 20pt "Futura PT", sans-serif;
+   font-weight: "Bold";
+   background-color: rgb(213, 213, 213);
+   padding: 8px;
+ }
+  
+ h4 {
+    color: gray;
+    font: "Segoe UI Black", sans-serif;
+  }
+
+ p {
+    color:black ;
+    font: 14pt "Futura PT", sans-serif;
+    padding: 8px
+  }
+
+/* content elements */
+ main{
+    margin: 0px;
+ } 
+ body{
+    margin: 0px;
+  }
+ ul {
+    font: 14pt "Futura PT", sans-serif;
+    list-style: square;
+  }
+
+/* Heading/footer elements */
+ header { 
+   position: fixed;
+   top: 0px;
+   background-color: black;
+   margin: 0px;
+ }  
+
+ footer {
+    position: static;
+    background-color: black;
+    text-align: center;
+    bottom: 0px;
+ }
+
+ #title {
+    height: 15vw;
+    min-height: 200px;
+    background-color: rgb(83, 83, 160);
+    display: block;
+    margin: 0px;
+  }
+  #titlecontainer{
+    position: relative;
+    display:block;
+    bottom:-65%;
+    height:35%
+  }
+  #subtitle{
+    display: block;
+    margin: 8px;
+  }
+
+/* navbar elements */
+ .navbar{
+   font: 15pt "Futura PT", sans-serif;
+   color: rgb(255, 77, 77);
+   text-align: center;
+   width: 100vw;
+   height: 5vh;
+   margin: 0px;
+   padding: 8px;
+  }
+ .navbar a:link {
+    text-decoration: none;
+    color:white;
+    padding: 8px;
+  }
+ .navbar a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+    padding: 1vw;
+    text-align: center;
+    text-decoration: none;
+  }
+/* body elements */
+#topthirdcontent{
+  display: inline-table;
+}  
+ #history {
+    text-align: right;
+    display: inline;
+    padding: 2px;
+  }
+  #artists {
+    text-align: left;
+    display: inline;
+  }
+
+#lowerthirdcontent{
+  display: block;
+}
+
+/* format for gallery */
+#gallery {
+  display: inline-block;
+  height:45vw;
+  margin: auto;
+}
+  #gallerytitle {
+    color: rgb(255, 77, 77);
+    font: 2.3em "Futura PT", sans-serif;
+    background-color: none;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+  }
+  #imagegallery {
+    font: 1em "Futura PT", sans-serif;
+    color: rgb(123, 123, 123);
+    list-style: none;
+    columns: 3;
+    text-align: center;
+    display: inline-block;
+    height:45vw;
+    margin: auto;
+    padding-left: 0;
+  }
+  img {
+    height: auto;
+    width: 45%;
+  }
+  #image{
+  display: inline;
+  }
+
+/* Reference list */
+  #references {
+    font: 14pt "Futura PT", sans-serif;
+    color: rgb(255, 77, 77);
+    padding: auto;
+    text-align: center;
+  }
+  #referencelist {
+    font: 14pt "Futura PT", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 0;
+  }
+
+ 
