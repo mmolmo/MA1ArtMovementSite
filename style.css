@@ -1,8 +1,8 @@
 /*General styling elements for the text*/
   h1 {
-    color: rgb(255, 217, 0);
-    font: 3.3em "Futura PT", sans-serif;
-    padding: 8px
+    color: rgb(255, 255, 255);
+    font: 3.3em "Arial Black", sans-serif;
+    padding: 10px
   }
 
   h2 {
@@ -75,8 +75,8 @@
 /*styling for the big title portion*/
  #title {
    height: 20vw;
-   min-height: 200px;
-   background-color: rgb(23, 23, 96);
+   min-height: 300px;
+   background-image: url("galleryart/Krasner_ShatteredLight.jpg");
    display: block;
    margin: 0px;
  }
@@ -151,7 +151,7 @@
  #gallerytitle {
    display: block;
    color: rgb(255, 77, 77);
-   font: 32pt "Futura PT", sans-serif;
+   font: 3.3em "Arial Black", sans-serif;
    background-color: none;
    text-align: center;
    margin-left:auto;
@@ -165,7 +165,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    width: 75vw;
-   height:65vw;
+   height:45vw;
    max-height: 1000px;
    border: solid 10px;
    margin: auto;
