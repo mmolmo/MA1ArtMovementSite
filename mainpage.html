@@ -5,6 +5,7 @@
 <head>
  <title>Abstract Expressionism Website</title>
  <meta name="viewport" content="width=device-width,initial-scale=1" >
+ <link rel="style.css" href="https://use.typekit.net/zzj5dqk.css">
  <link href="style.css" rel="stylesheet">
 </head>
 
@@ -27,7 +28,7 @@
    <!--Main title section-->
    <section id="title">
     <div id="titlecontainer">
-     <h1>Abstract Expressionism</h1>
+     <h1 id="pagetitle">Abstract Expressionism</h1>
     </div>
    </section>
   
@@ -36,45 +37,45 @@
    <!--section explaining the history of the movement-->
    <div class="subcontainer history">
     <article>
-      <h2>What is it? A Brief History</h2>
+      <h3>What is it? A Brief History</h3>
       <p>Abstract expressionism is an American Art movement originating in New York City in the 1940s. It originated as an exploration of raw emotions and feelings. Artists in this movement were affected by the horror of World-War II and rejected painting human subjects in favor of an abstract style.
       </p>
     </article>
    </div>
    <!--bulleted list of the top artists that were a part of it-->
-   <div class="subcontainer artists">
-    <h2>Key Artists</h2>
+   <div class="subcontainer keyartists">
+    <h3 id="artiststitle">Key Artists</h3>
     <ul>
-      <li>Jackson Pollock</li>
-      <li>Lee Krasner</li>
-      <li>Barnett Newman</li>
-      <li>Mark Rothco</li>
-      <li>Willem de Kooning</li>
+      <li class="artists">Jackson Pollock</li>
+      <li class="artists">Lee Krasner</li>
+      <li class="artists">Barnett Newman</li>
+      <li class="artists">Mark Rothco</li>
+      <li class="artists">Willem de Kooning</li>
     </ul>
    </div>
   </section>
   <section class="container bottom">
    <!--section listing on major influences of artists in the movement-->
    <section class="subcontainer influences">
-    <article>
-     <h2>Influences</h2>
-     <p>Many artists in the movement were influenced by famous psychologists such as Carl Jung and his theory of the subconcious mind. 
-  Other major contributions include the art movements of Surrealism and Cubism.</p>
-    </article>
+     <h3 class="bottomtitle">Influences</h3>
+     <div class="bottomtextcontainer">
+       <span class="text">Many artists in the movement were influenced by famous psychologists such as</span> <span class="emphasized">Carl Jung</span> <span class="text">and his theory of the subconcious mind. 
+  Other major contributions include the art movements of</span> <span class="emphasized">Surrealism</span> <span class="text">and</span> <span class="emphasized">Cubism.</span>
+     </div>
    </section>
    <!--section listing-->
    <section class="subcontainer legacy">
-    <article>
-     <h2>Legacy</h2>
-     <p>Abstract Expressionism died out in the 60's but remain highly influential. It affected movements such as Color Field painting, Lyrical Abstraction, Fluxus, Pop Art, Minimalism, Postminimalism, Neo-expressionism, and more. Movements were also made in direct responses to it include Hard-edge painting, and Pop Art.
-     </p>
-   </article>
+      <h3 class="bottomtitle">Legacy</h3>
+      <div class="bottomtextcontainer"> 
+       <span class="text">Abstract Expressionism died out in the 60's but remain highly influential. It affected movements such as <span class="emphasized">Color Field painting</span>, <span class="emphasized">Lyrical Abstraction</span>, <span class="emphasized">Fluxus</span>, <span class="emphasized">Pop Art,</span> <span class="emphasized">Minimalism</span>, <span class="emphasized">Postminimalism</span>, <span class="emphasized">Neo-expressionism</span>, and more. Movements were also made in direct responses to it include <span class="emphasized">Hard-edge painting</span> and <span class="emphasized">Pop Art</span>.
+       </span>
+    </div>
 </section>
 </section>
 
   <!--An image gallery of artworks-->
    <section id="gallery">
-    <h1 id="gallerytitle">Gallery</h2>
+    <h2 id="gallerytitle">Gallery</h2>
       
      <ul id="imagegallery">
        <li class="galleryart">
@@ -103,7 +104,7 @@
        </li>
        <li class="galleryart">
         <span>
-         <img src="galleryart/Krasner_ShatteredLight.jpg" 
+         <img src="galleryart/Krasner_ShatteredLight_copy.jpg" 
          alt="An image of Lee Krasner's painting, titled Shattered Light(1954).">
         </span>
         <h5>Lee Krasner, Shattered Light (1954).</h5>
@@ -111,7 +112,7 @@
        <li class="galleryart">
         <span>
          <img id="dekooning"
-         src="galleryart/DeKooning_UntitledXXII.jpg" 
+         src="galleryart/DeKooning_UntitledXXII_copy.jpg" 
          alt="An image of Willem de Kooning's painting, titled Untitled XXII(1982).">
         </span>
         <h5>Willem de Kooning, Untitled XXII (1982).</h5>
@@ -122,42 +123,42 @@
    </section>
   <!--A section which has a list of reference sites used in the research process--> 
   <section id="references">
-    <h3>
+    <h2>
     References
-    </h3>
-    <nav>
-      <ul id="referencelist">
-       <li>
+    </h2>
+    <nav id="referenceslistbox">
+      <ul class="referencelist">
+       <li class="reflink">
         <a href="https://images.google.com/?hl=xx-elmer&gws_rd=ssl" target='_blank'>
          Google Images
         </a>
        </li>
-       <li>
+       <li class="reflink">
         <a href="https://en.wikipedia.org/wiki/Abstract_expressionism" target='_blank'>
          Wikipedia's page on Abstract Expressionism
         </a>
        </li>
-       <li>
+       <li class="reflink">
          <a href="https://www.dekooning.org/" target='_blank'>
           The Willem de Kooning Foundation
          </a>
         </li>
-       <li>
+       <li class="reflink">
         <a href="https://magazine.artland.com/abstract-expressionism/" target='_blank'>
          <i>Abstract Expressionism: Action, Colour Fields and Emotion</i> by Shira Wolfe, Artland Magazine
         </a>
        </li>
-       <li>
+       <li class="reflink">
         <a href="https://www.tate.org.uk/art/art-terms/a/abstract-expressionism" target='_blank'>
          <i>Abstract Expressionism</i>, tate.org.uk
         </a>
        </li>
-       <li>
+       <li class="reflink">
          <a href="https://www.theatlantic.com/entertainment/archive/2019/06/lee-krasner-living-colour-barbican-retrospective-review/591499/" target='_blank'>
           <i>The Irrepressible Emotion of Lee Krasner</i> by Sophie Gilbert, The Atlantic
          </a>
        </li>
-       <li>
+       <li class="reflink">
          <a href="https://www.artnews.com/art-news/news/mark-rothko-paintings-paper-survey-national-gallery-of-art-1234618904/" target='_blank'>
           <i>Major National Gallery Survey to Spotlight Mark Rothko’s Lesser-Known Paintings on Paper</i> by Alex Greenberger, Artnews
          </a>

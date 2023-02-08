@@ -1,21 +1,30 @@
 /*General styling elements for the text*/
   h1 {
-    color: rgb(255, 255, 255);
-    font: 3.3em "Arial Black", sans-serif;
-    padding: 10px
+     color: rgb(255, 255, 255);
+     font: 3.3em "Futura PT Heavy", sans-serif;
+     padding: 10px
   }
-
   h2 {
+    color: brown;
+     display: block;
+      font: 3.3em "Futura PT Heavy", sans-serif;
+      background-color: none;
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  h3 {
     color: rgb(255, 217, 0);
-    font: 20pt "Futura PT", sans-serif;
+    font: 25pt "Futura PT Heavy";
     font-weight: "Bold";
     background-color: rgb(176, 64, 64);
     padding: 8px;
-    display: table;
   }
 
-  h3{
-    font: 20pt "Futura PT", sans-serif;
+  h4{
+    font: 20pt "Futura PT Book", sans-serif;
     background-color: rgb(255, 217, 0);
     color:rgb(176, 64, 64);
     text-align: center;
@@ -24,10 +33,7 @@
     display: table;
   }
 
-  h4 {
-    color: rgb(255, 255, 255);
-    font: "Segoe UI Black", sans-serif;
-  }
+  
 
   h5{
     font: 14pt "Futura PT", sans-serif;
@@ -36,10 +42,22 @@
     text-align: center;
   }
 
- p {
+  p {
+    color:black ;
+    font: 18pt "Futura PT", sans-serif;
+    padding: 10px;
+  }
+
+  .text {
    color:black ;
-   font: 14pt "Futura PT", sans-serif;
-   padding: 8px
+   font: 18pt "Futura PT", sans-serif;
+   padding: 10px;
+
+ }
+
+ .emphasized{
+   color: rgb(222, 23, 23);
+   font: 18pt "Futura PT Heavy";
  }
 
 /*Styling elements for the main page that aren't boxes*/
@@ -93,18 +111,23 @@
 /* further styling elements for navbar */
   .navbar{
     font: 15pt "Futura PT", sans-serif;
-    color: rgb(255, 77, 77);
+    color: brown;
     justify-content: center;
     margin: auto;
     padding: 8px;
   }
-
+.navbar a:hover {
+   color:red;
+   text-align: center;
+   text-shadow: rgb(0, 0, 0) 1px 3px;
+ }
  .navbar a:link {
+   font: 15pt "Futura PT", sans-serif;
    text-decoration: none;
    color:white;
    text-align: center;
   }
-
+ 
  .navbar a:visited {
    text-decoration: none;
    color: white;
@@ -112,32 +135,76 @@
    text-decoration: none;
  }
 
- a:visited {
-   text-decoration: none;
-   padding: 1vw;
-   text-align: center;
-   text-decoration: none;
- }
 
  /* styling for boxes for the main body and or text elements containing the most info */
 
   .container {
     display: flex;
-    height: 500px;
+    height: 70vh;
     background-color: none;
     margin:10px;
+    min-height: 490px;
   }  
 
  .subcontainer {
    flex:1; 
    background-color: rgba(171, 171, 171, 0.274);
-   border: solid 10px;
-   border-color: rgb(106, 106, 106);
+   /*border: solid 10px;
+   border-color: rgb(55, 41, 134);*/
    width: 100px;
    height: auto;
    padding: 10px;
-   margin: 10px;
    justify-content: center;
+   min-height: 490px;
+ }
+
+ .history {
+   flex:2; 
+ }
+
+ .keyartists {
+  background-color: black;
+ }
+ #artiststitle{
+    color: black;
+    font: 25pt "Futura PT Heavy";
+    font-weight: "Bold";
+    background-color: rgb(74, 74, 231);
+    padding: 8px;
+    text-align: right;
+}
+ .artists {
+  font-size: 20pt;
+  text-align: end;
+  color: white;
+  
+ }
+
+ .bottom {
+  background-color: rgb(30, 30, 161);
+  height: 90vh;
+  padding: 2vw;
+ }
+
+ .bottomtextcontainer {
+   background-color: #E8E8E8;
+   padding: 5vw;
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+   height: 30vh;
+   min-height: 200px;
+ }
+
+ .bottomtitle{
+  color: rgb(255, 217, 0);
+  font: 25pt "Futura PT Heavy";
+  font-weight: "Bold";
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  text-align: center;
+}
+ .influences {
+  border: 10px, white;
  }
 
 /* styling for the art gallery */
@@ -150,8 +217,8 @@
   
  #gallerytitle {
    display: block;
-   color: rgb(255, 77, 77);
-   font: 3.3em "Arial Black", sans-serif;
+   color: brown;
+   font: 3.3em "Futura PT Heavy", sans-serif;
    background-color: none;
    text-align: center;
    margin-left:auto;
@@ -184,8 +251,8 @@
    padding: 10px;
    min-height: 100px;
    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 1
+   flex-wrap: wrap;
+   flex-shrink: 1
  }
 
   img{
@@ -208,20 +275,45 @@
    margin-top: 30vw;
    margin-bottom: 30vw;
  }
+ 
+ .referencelist a:hover {
+  text-decoration: none;
+  text-align: center;
+  color: red;
+  font: 18pt "Futura PT Heavy";
+ }
 
- #referencelist {
-   font: 14pt "Futura PT", sans-serif;
-   color: rgb(0, 0, 0);
-   text-align: center;
-   padding: 10px;
+ .referencelist {
    margin: auto;
-   position: relative;
    list-style: none;
-   background-color: rgba(171, 171, 171, 0.274);
+   background-color: rgb(255, 217, 0);
    border: solid 10px;
-   border-color: rgb(106, 106, 106);
+   border-color: rgb(30, 30, 161);
    max-width: 75%;
-   max-height: 25%;
+   height: 45vh;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   min-height: 200px;
+ }
+
+ a:link {
+  font: 18pt "Futura PT", sans-serif;
+  text-decoration: none;
+  color:black;
+  text-align: center;
  }
 
 
+a:visited {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.reflink {
+  padding-top: 1vh;
+}
