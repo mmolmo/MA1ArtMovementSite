@@ -1,0 +1,70 @@
+{
+  "artworks": [
+    {
+      "id": "aw_pollock_convergence",
+      "url": "../Images/cardartwork/convergence.jpg",
+      "alt" : "convergence",
+      "name": "Convergence",
+      "artist":"Jackson Pollock",
+      "year": "1952",
+      "medium": "Oil on canvas",
+      "dimensions": "95 1/4 x 157 1/8 x 3 inches\n(241.94 x 399.1 x 7.62 cm)",
+      "description": "short paragraph description"
+    },
+    {
+      "id": "aw_krasner_stilllife_1938",
+      "url": "../Images/cardartwork/krasner-still-life.jpg",
+      "alt" : "still life img",
+      "name": "Still Life",
+      "artist":"Lee Krasner",
+      "year": "1938",
+      "medium": "Oil on paper",
+      "dimensions": "Sheet: 19 × 24 3/4in.\n(48.3 × 62.9 cm)",
+      "description": "short paragraph description"
+    },
+    {
+      "id": "aw_dekooning_1982",
+      "url": "../Images/cardartwork/DeKooning_UntitledXXII.jpg",
+      "alt" : "untitled XXII image",
+      "name": "Untitled XXII",
+      "artist":"Willem de Kooning",
+      "year": "1982",
+      "medium": "Oil on canvas",
+      "dimensions": "70 1/4 x 80 1/8 in.\n(178.4 x 203.5 cm)",
+      "description": "short paragraph description"
+    },
+    {
+      "id": "aw_pollock_redcomp",
+      "url": "../Images/cardartwork/Pollock_red_composition.jpg",
+      "alt" : "red composition image",
+      "name": "Red Composition",
+      "artist":"Jackson Pollock",
+      "year": "(1912-1956)",
+      "medium": "oil on Masonite",
+      "dimensions": "19 x 23 3/4 in.\n(48.3 x 60.3 cm.)",
+      "description": "short paragraph description"
+    },
+    {
+      "id": "aw_rothko_1953",
+      "url": "../Images/cardartwork/mark_rothko-untitled-1953-trivium-art-history-1_webp.png",
+      "alt" : "untitled img",
+      "name": "Untitled",
+      "artist":"Mark Rothko",
+      "year": "1953",
+      "medium": "Oil on Canvas",
+      "dimensions": "118 x 174 in.\n(300 cm x 442.5 cm)",
+      "description": "short paragraph description"
+    },
+    {
+      "id": "aw_krasner_1954",
+      "url": "../Images/cardartwork/91-lee-krasner-goldorsilver.jpg",
+      "alt" : "gold or silver alt",
+      "name": "Gold Or Silver",
+      "artist":"Lee Krasner",
+      "year": "1954",
+      "medium": "oil and paper collage on Masonite",
+      "dimensions": "48 x 61 3/4 in.\n(122 x 157 cm.)",
+      "description": "short paragraph description"
+    }
+    ]
+}

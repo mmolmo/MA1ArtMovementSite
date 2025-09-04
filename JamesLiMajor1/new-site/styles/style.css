@@ -25,6 +25,7 @@
   --link-size:1rem;
   --p-size:1rem;
   --card-content-size:0.875rem;
+  --small-content-size:0.875rem;
 
   --herotitle-weight:900;
   --pagetitle-weight:600;
@@ -103,6 +104,9 @@ h1, h2, h3{
     color:black ;
     font: var(--p-size) "Futura PT", sans-serif;
   }
+  span{
+    font: var(--small-content-size) "Futura PT", sans-serif;
+  }
 
     @media only screen and (max-width: 1200px)
     {
@@ -180,7 +184,7 @@ h1, h2, h3{
     padding: var(--spacing-S);
     display: inline-block;
   }
-  ul li a:link{
+  ul li a:link, .gallery-link a:link{
     font: var(--link-size) "Futura PT", sans-serif;
   }
 
@@ -292,7 +296,7 @@ section {
   justify-content: center;
 } */
 
-.gallery-content{
+.gallery-content, .artwork-info-content{
   display: grid;
   width: 100%;
   grid-gap: var(--gap-s);
@@ -321,7 +325,7 @@ section {
   overflow: hidden;
 }
 
-.gallery-card a:hover{
+.gallery-card a:hover, .gallery-link a:hover{
   color: var(--secondary);
   text-decoration: underline;
 }
@@ -346,8 +350,52 @@ section {
   font-size: var(--card-content-size);
 }
 
+.galleryartwork{
+  width: 100%;
+}
+
+.galleryartwork h2{
+  font-size: var(--p-size);
+  font-weight: 100;
+  padding-bottom: var(--spacing-XS);
+  padding-top: var(--spacing-XS);
+}
+
+.gallery-aside{
+  display: flex;
+  object-fit: cover;
+  max-height: 85vh;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-aside img{
+  /* width:auto; */
+}
+
+.artwork-info-content{
+  padding: var(--spacing-S);
+}
 
 
+.artwork-info-content .details p{
+  max-width: fit-content;
+  display: inline-block;
+}
+
+.detail-row {
+  display: flex;
+  gap: var(--spacing-XS);
+  justify-content: space-between;
+  max-width: 60%;
+}
+
+span {
+  display: inline;
+  white-space: pre-line;
+}
 
   /* references */
 
@@ -359,7 +407,7 @@ section {
 
   .article-img {
     object-fit: cover; 
-    max-width: 300px;
+    min-width: 300px;
     display: inline-flex;
   }
 
